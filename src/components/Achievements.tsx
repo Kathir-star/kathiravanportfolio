@@ -95,6 +95,16 @@ export const Achievements: React.FC<AchievementsProps> = ({ onViewCert }) => {
       color: '#38bdf8',
       badge: 'Google for Ed Partner',
     },
+    {
+      title: 'Hackatronix 2024 — IEEE & IETE Innovation Award',
+      organization: 'PANIMALAR ENGINEERING COLLEGE (ECE) & IEEE SB / IETE ISF',
+      category: 'Hardware & IoT Hackathon',
+      desc: 'Honored with award shield & certificate presented by Indian Coast Guard Officer Kamal Bhardwaj for standout engineering innovation at Hackatronix 2024.',
+      icon: Award,
+      certId: 'panimalar-hackatronix-2024',
+      color: '#f59e0b',
+      badge: 'Award & Memento',
+    },
   ];
 
   return (
